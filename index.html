@@ -1,126 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BookVerse - Online Book Store</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bengal Crafts - Traditional Bangladeshi Handicrafts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <header id="header">
-      <div class="header-container">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Book_icon_2.svg/1024px-Book_icon_2.svg.png"
-          alt="BookVerse Logo"
-          id="header-img"
-        />
+        <img id="header-img" src="bengali crapt.jpg" alt="Bengal Crafts Logo">
         <nav id="nav-bar">
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email for exclusive offers"
-            required
-          />
-          <input type="submit" id="submit" value="Subscribe Now" />
-        </form>
-          <a href="#features" class="nav-link">Features</a>
-          <a href="#how-it-works" class="nav-link">How It Works</a>
-          <a href="#pricing" class="nav-link">Pricing</a>
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#how-it-works">How It Works</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
         </nav>
-      </div>
     </header>
 
     <main>
-      <section id="hero">
-        <h1>Discover a World of Books with BookVerse</h1>
-        <p>Unleash your imagination through thousands of titles, genres, and authors.</p>
-      </section>
+        <section id="hero">
+            <h1>Discover the Artistry of Bengal Crafts</h1>
+            <p>Handcrafted treasures from the heart of Bangladesh, blending tradition with elegance.</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+                <input id="submit" type="submit" value="Subscribe">
+            </form>
+        </section>
 
-      <section id="features" class="container">
-        <h2>Why Choose BookVerse?</h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <img src="https://via.placeholder.com/80?text=📚" alt="Variety Icon">
-            <h3>Endless Variety</h3>
-            <p>From bestsellers to hidden gems, find books across every genre.</p>
-          </div>
-          <div class="feature-item">
-            <img src="https://via.placeholder.com/80?text=🚚" alt="Shipping Icon">
-            <h3>Fast & Free Shipping</h3>
-            <p>Enjoy free delivery straight to your door, quickly and reliably.</p>
-          </div>
-          <div class="feature-item">
-            <img src="https://via.placeholder.com/80?text=📱" alt="eBook Icon">
-            <h3>Instant eBooks</h3>
-            <p>Download and start reading your favorite books instantly on any device.</p>
-          </div>
-        </div>
-      </section>
+        <section id="features">
+            <h2>Features</h2>
+            <div class="feature-item">
+                <h3>Authentic Materials</h3>
+                <p>Sourced from local artisans using natural fibers and dyes.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Unique Designs</h3>
+                <p>Inspired by Bangladeshi heritage, including motifs from the Sundarbans and Padma River.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Sustainable Practices</h3>
+                <p>Supporting eco-friendly production and fair trade for communities.</p>
+            </div>
+        </section>
 
-      <section id="how-it-works" class="container">
-        <h2>See BookVerse in Action</h2>
-        <div class="video-container">
-          <iframe
-            id="video"
-            src="https://www.youtube.com/embed/3GwjfUFyY6M"
-            title="Book Store Overview"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </section>
+        <section id="how-it-works">
+            <h2>How It Works</h2>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Bangladeshi Crafts Video" frameborder="0" allowfullscreen></iframe>
+            <p>Watch our artisans at work, creating masterpieces with age-old techniques.</p>
+        </section>
 
-      <section id="pricing" class="container">
-        <h2>Choose Your Plan</h2>
-        <div class="pricing-grid">
-          <div class="pricing-plan">
-            <h3>Beginner Reads</h3>
-            <h4>$10</h4>
-            <ul>
-              <li>3 Books/month</li>
-              <li>Free Shipping</li>
-              <li>Basic Genres</li>
-              <li>Email Support</li>
-            </ul>
-            <button class="select-plan">SELECT</button>
-          </div>
-
-          <div class="pricing-plan">
-            <h3>Enthusiast Pack</h3>
-            <h4>$25</h4>
-            <ul>
-              <li>10 Books/month</li>
-              <li>All Genres</li>
-              <li>Priority Support</li>
-              <li>Free eBooks</li>
-            </ul>
-            <button class="select-plan">SELECT</button>
-          </div>
-
-          <div class="pricing-plan">
-            <h3>Book Lover Pro</h3>
-            <h4>$50</h4>
-            <ul>
-              <li>Unlimited Books</li>
-              <li>Exclusive Releases</li>
-              <li>1-on-1 Assistance</li>
-              <li>VIP Discounts</li>
-            </ul>
-            <button class="select-plan">SELECT</button>
-          </div>
-        </div>
-      </section>
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <div class="pricing-tier">
+                <h3>Basic</h3>
+                <p>$20</p>
+                <ul>
+                    <li>One handcrafted item</li>
+                    <li>Standard shipping</li>
+                </ul>
+                <button class="select-btn">Select</button>
+            </div>
+            <div class="pricing-tier">
+                <h3>Premium</h3>
+                <p>$50</p>
+                <ul>
+                    <li>Custom design</li>
+                    <li>Express shipping</li>
+                    <li>Gift wrapping</li>
+                </ul>
+                <button class="select-btn">Select</button>
+            </div>
+            <div class="pricing-tier">
+                <h3>Deluxe</h3>
+                <p>$100</p>
+                <ul>
+                    <li>Full set collection</li>
+                    <li>Personalized engraving</li>
+                    <li>Free international shipping</li>
+                </ul>
+                <button class="select-btn">Select</button>
+            </div>
+        </section>
     </main>
 
     <footer>
-      <p>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Contact</a>
-      </p>
-      <p>Copyright 2025, BookVerse Online</p>
+        <p>&copy; 2025 Bengal Crafts. All rights reserved.</p>
     </footer>
-  </body>
+</body>
 </html>
